@@ -5,6 +5,7 @@ var Screen = {
 	height: function() { return window.innerHeight; }
 };
 
+
 var canvas = document.getElementById('matrix');
 var context = canvas.getContext('2d');
 
@@ -38,3 +39,11 @@ window.onload = window.onresize = function() {
 };
 
 setInterval(render, 33);
+
+var AnimationLoop = {
+	
+
+	run: function() {
+		
+	}
+}

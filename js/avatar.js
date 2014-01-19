@@ -73,6 +73,12 @@ function render (avatar) {
 			}
 		}
 	}
+
+	var gradient = context.createLinearGradient(0,0,0,size);
+	gradient.addColorStop(0, 'rgba(255, 255, 255, 0.3');
+	gradient.addColorStop(1, 'rgba(255, 255, 255, 0.0');
+	context.fillStyle = gradient;
+	context.fillRect(0, 0, size, size);
 }
 
 render(avatar);

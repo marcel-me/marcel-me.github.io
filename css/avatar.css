@@ -2,3 +2,8 @@ h1 {
 	width: 100%;
 	text-align: center;
 }
+
+#avatar {
+	display: block;
+	margin: 0px auto 0px auto;
+}

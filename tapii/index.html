@@ -1,99 +1,64 @@
 <!DOCTYPE html>
-<html class="no-js">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Tapii - Screenshots</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Tapii</title>
+        <meta name="description" content="A super fast paced tap game!">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="../css/normalize.min.css">
-  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
-  <style type="text/css">
-    @import url('http://fonts.googleapis.com/css?family=Lato');
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="fonts/colaborate_thin_macroman/stylesheet.css">
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-    body {
-      font: 14px/1 Lato, sans-serif;
-      color: #555;
-      background: #eee;
-    }
+        <h1>
+            <div id="logo">
+                Tapii
+            </div>
+        </h1>
 
-    .gallery {
-      width: 790px;
-      margin: 0 auto;
-      padding: 5px;
-      background: #333;
-    }
+        <p id="description"> 
+            A super fast paced tap game!
+        </p>
 
-    .gallery > div {
-      position: relative;
-      float: left;
-      padding: 5px;
-    }
+        <div id="screenshots">
+            <div id="screenshots-wrapper">
+                <img src="img/1.png" />
+                <img src="img/2.png" />
+                <img src="img/3.png" />
+            </div>
+        </div>
 
-    .gallery > div > img {
-      width: 250px;
-      transition: .1s transform;
-      transform: translateZ(0); /* hack */
-    }
+        <div id="created">
+            <p>This game will be soon available on the app store</p>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out Tapii, a super fast paced tap game!" data-via="marcel_medak" data-hashtags="tapii">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            <p>Created by <a href="https://twitter.com/marcel_medak" target="_blank">Marcel Medak</a><p>
+        </div>
 
-    .gallery > div:hover {
-      z-index: 1;
-    }
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
-    .gallery > div:hover > img {
-      transform: scale(1.5,1.5);
-      transition: .3s transform;
-    }
+        <script src="js/main.js"></script>
 
-    .cf:before, .cf:after {
-      display: table;
-      content: "";
-      line-height: 0;
-    }
-
-    .cf:after {
-      clear: both;
-    }
-
-    h1 {
-      margin: 40px 0;
-      font-size: 24px;
-      text-align: center;
-      text-transform: uppercase;
-    }
-
-    footer {
-      margin: 80px 0;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
-  <h1>Tapii</h1>
-
-  <div class="gallery cf">
-    <div>
-      <img src="img/1.png" />
-    </div>
-    <div>
-      <img src="img/2.png" />
-    </div>
-    <div>
-      <img src="img/4.png" />
-    </div>
-    <div>
-      <img src="img/3.png" />
-    </div>
-    <div>
-      <img src="img/5.png" />
-    </div>
-  </div>
-</body>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
 </html>

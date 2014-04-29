@@ -52,15 +52,15 @@ h1 #logo {
 }
 
 #created {
+    display: table;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
     color: white;
 }
 
-#created, a:visited {
+#created, a, a:visited {
     color: white;
 };

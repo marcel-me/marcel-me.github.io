@@ -22,6 +22,11 @@ h1 #logo {
     font-size: 2em;
 }
 
+#logo a, a:visited {
+    color: #BB9999;
+    text-decoration: none;
+}
+
 #description {
     text-align: center;
     color: white;
@@ -61,6 +66,28 @@ h1 #logo {
     color: white;
 }
 
-#created, a, a:visited {
+#created a, a:visited {
     color: white;
-};
+}
+
+#legal {
+    width: 100%;
+    background-color: white;
+    display: table;
+}
+
+#legal-wrapper {
+    display: table-cell;
+    text-align: center;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+#legal-wrapper h1 {
+    height: auto;
+    width: auto;
+}
+
+#legal-wrapper a, a:visited  {
+    color: black;
+}

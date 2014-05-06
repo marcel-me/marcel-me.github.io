@@ -45,7 +45,7 @@ h1 #logo {
     text-align: center;
 }
 
-#screenhots-wrapper, img {
+.screenshot {
     margin-left: 9px;
     margin-right: 9px;
     margin-top: 10px;
@@ -90,4 +90,8 @@ h1 #logo {
 
 #legal-wrapper a, a:visited  {
     color: black;
+}
+
+.store {
+    border: none;
 }
